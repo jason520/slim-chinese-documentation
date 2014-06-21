@@ -121,7 +121,7 @@ Slim 框架提供了两种方式对其进行配置。一种是在生成实例的
     
 **log.writer**
 
-使用自定义的 log writer 可以直接把日志内容输出到需要的目标上。默认情况下，Slim 的 logger 会把日志内容输出到 STDERR。如果你使用自定义的 log writer，它必须实现一下接口：
+使用自定义的 log writer 可以直接把日志内容输出到需要的目标上。默认情况下，Slim 的 logger 会把日志内容输出到 STDERR。如果你使用自定义的 log writer，它必须实现以下接口：
 
     public write(mixed $message, int $level);
 
